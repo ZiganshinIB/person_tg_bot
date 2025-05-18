@@ -1,0 +1,31 @@
+
+# idea and venv
+.idea/
+.venv/
+.vscode/
+# sataic data
+media/
+temp/
+learn/
+# data base 
+test_data/
+db.sqlite
+sqlite.*
+# env 
+.env
+
+# other
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+# liners 
+.falke8
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+# test docker
+Dokerfile.override
+docker-compose.override.yml
+
