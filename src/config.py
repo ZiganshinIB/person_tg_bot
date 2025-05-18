@@ -8,15 +8,6 @@ class Settings(BaseSettings):
     SECRET_TOKEN: SecretStr = Field(
         description="Секретный токен для вебхука",
     )
-    HOST: str = Field(
-        description="Хост",
-        default="0.0.0.0",
-    )
-    PORT: int = Field(
-        description="Порт",
-        default=8000
-    )
-
     class Config:
         env_file = ".env"
         env_file_encoding = "utf-8"
